@@ -1,11 +1,26 @@
-﻿  scene.cpp
-c:\users\angus hay\desktop\csc305\assignment 3 april 20\scene.cpp(573): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\angus hay\desktop\csc305\assignment 3 april 20\scene.cpp(574): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\angus hay\desktop\csc305\assignment 3 april 20\scene.cpp(583): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-c:\users\angus hay\desktop\csc305\assignment 3 april 20\scene.cpp(592): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\angus hay\desktop\csc305\assignment 3 april 20\scene.cpp(603): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\angus hay\desktop\csc305\assignment 3 april 20\scene.cpp(794): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\angus hay\desktop\csc305\assignment 3 april 20\scene.cpp(795): warning C4305: '=': truncation from 'double' to 'GLfloat'
-c:\users\angus hay\desktop\csc305\assignment 3 april 20\scene.cpp(796): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-  csc305a2.vcxproj -> C:\Users\Angus Hay\Desktop\CSC305\Assignment 3 April 20\x64\Debug\csc305a2.exe
-  csc305a2.vcxproj -> C:\Users\Angus Hay\Desktop\CSC305\Assignment 3 April 20\x64\Debug\csc305a2.pdb (Partial PDB)
+﻿  tiny_obj_loader.cc
+  simulation.cpp
+  shaderset.cpp
+  scene.cpp
+c:\users\angus hay\desktop\csc305\assignment 3 final\program\scene.cpp(573): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\angus hay\desktop\csc305\assignment 3 final\program\scene.cpp(574): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\angus hay\desktop\csc305\assignment 3 final\program\scene.cpp(583): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\angus hay\desktop\csc305\assignment 3 final\program\scene.cpp(592): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\angus hay\desktop\csc305\assignment 3 final\program\scene.cpp(603): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\angus hay\desktop\csc305\assignment 3 final\program\scene.cpp(794): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\angus hay\desktop\csc305\assignment 3 final\program\scene.cpp(795): warning C4305: '=': truncation from 'double' to 'GLfloat'
+c:\users\angus hay\desktop\csc305\assignment 3 final\program\scene.cpp(796): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  renderer.cpp
+  opengl.cpp
+  mysdl_dpi.cpp
+  main.cpp
+c:\users\angus hay\desktop\csc305\assignment 3 final\program\main.cpp(14): warning C4005: '_DEBUG': macro redefinition
+  c:\users\angus hay\desktop\csc305\assignment 3 final\program\main.cpp(14): note: command-line arguments:  see previous definition of '_DEBUG'
+  imgui_impl_sdl_gl3.cpp
+  imgui_draw.cpp
+  imgui_demo.cpp
+  imgui.cpp
+  Generating Code...
+  stb_image.c
+  csc305a2.vcxproj -> C:\Users\Angus Hay\Desktop\CSC305\Assignment 3 Final\Program\x64\Debug\csc305a2.exe
+  csc305a2.vcxproj -> C:\Users\Angus Hay\Desktop\CSC305\Assignment 3 Final\Program\x64\Debug\csc305a2.pdb (Partial PDB)

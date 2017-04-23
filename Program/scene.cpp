@@ -1144,10 +1144,6 @@ GLuint GenerateHeightColors() {
 		heightColors[i] = snow;
 	}
 
-	for (int i = 0; i < 1000; i+= 100) {
-		std::cout << heightColors[i].x << ", " << heightColors[i].y << ", " << heightColors[i].z << std::endl;
-	}
-
 	glTexImage1D(GL_TEXTURE_1D, 0, GL_SRGB8_ALPHA8, 1000, 0, GL_RGBA, GL_FLOAT, heightColors);
 	glGenerateMipmap(GL_TEXTURE_1D);
 
