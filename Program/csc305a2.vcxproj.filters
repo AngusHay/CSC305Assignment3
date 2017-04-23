@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="renderer.cpp" />
+    <ClCompile Include="imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="mysdl_dpi.cpp">
+      <Filter>sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_sdl_gl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="shaderset.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cc">
+      <Filter>tinyobjloader</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation.cpp" />
+    <ClCompile Include="stb_image.c">
+      <Filter>stb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="renderer.h" />
+    <ClInclude Include="imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>stb</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>stb</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>stb</Filter>
+    </ClInclude>
+    <ClInclude Include="mysdl_dpi.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_sdl_gl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="shaderset.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>stb</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>tinyobjloader</Filter>
+    </ClInclude>
+    <ClInclude Include="simulation.h" />
+    <ClInclude Include="packed_freelist.h">
+      <Filter>containers</Filter>
+    </ClInclude>
+    <ClInclude Include="flythrough_camera.h">
+      <Filter>cameras</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{d786d595-3e86-4578-950b-ec89b26fa308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stb">
+      <UniqueIdentifier>{0a362e28-144c-4ed3-9525-05b0b03e6390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdl">
+      <UniqueIdentifier>{c614ca50-e03e-4665-8af8-8aa26dbe62d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opengl">
+      <UniqueIdentifier>{3d5382e7-52d0-4b59-b2ab-c7907b94782e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyobjloader">
+      <UniqueIdentifier>{0a16167f-831a-4793-9586-a30c92915d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{b9595469-d788-4c9b-b438-0bd2a5e047a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="containers">
+      <UniqueIdentifier>{624f8d15-1e86-4cc5-bb7a-629343021f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cameras">
+      <UniqueIdentifier>{cffe8a71-0f41-42a9-8a5b-82633d1e6d4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scene.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="scene.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="preamble.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
