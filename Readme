@@ -1,4 +1,4 @@
-This is a product final group project in a Introduction of Computer Graphics course.
+This is a product of final group project in an Introduction of Computer Graphics course.
 It is based on previous code that was given in assignment 2 in the course.
 This program is written in C++, using OpenGL 3.3 API. 
-It intend to create terrains with different texture and a flying camera is implemented in the scene.
+It intends to create terrains with different textures and a flying camera is implemented in the scene.
